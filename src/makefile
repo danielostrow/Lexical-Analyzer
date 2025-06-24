@@ -1,3 +1,19 @@
+#
+# Daniel Ostrow
+# CMSC 430 Compiler Theory and Design - Project 1: Lexical Analyzer
+# June 24th, 2025
+#
+# makefile - Build configuration for the lexical analyzer project
+#
+# This makefile orchestrates the build process for the lexical analyzer,
+# including flex code generation, compilation, and organized output to
+# the build directory. Features include:
+# - Organized directory structure with separate build output
+# - Proper dependency management between generated and source files
+# - Include path handling for header files
+# - Clean build targets for development workflow
+#
+
 # CMSC 430 Compiler Theory and Design - Project 1
 # *** MODIFIED: Updated makefile for new directory structure ***
 

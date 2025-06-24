@@ -1,4 +1,4 @@
-// *** FINAL TEST: Complex nested structures (created during development) ***
+// *** FINAL TEST: Complex nested structures ***
 // Final comprehensive test of all language features
 function fibonacci_calculator (number n) returns real is
 begin

@@ -1,9 +1,19 @@
-/* CMSC 430 Compiler Theory and Design
-   Project 1 Skeleton
-   UMGC CITE
-   Summer 2023 */
-
-/* This file contains flex input file */
+/*
+ * Daniel Ostrow
+ * CMSC 430 Compiler Theory and Design - Project 1: Lexical Analyzer
+ * June 24th, 2025
+ * 
+ * scanner.l - Flex lexical analyzer specification for custom programming language
+ * 
+ * This file contains the complete flex input specification for tokenizing
+ * a custom programming language. Key features include:
+ * - Recognition of all required reserved words, operators, and literals
+ * - Support for multiple real number formats and hexadecimal literals
+ * - Ada-style comment support alongside C++ style comments
+ * - Enhanced identifier patterns with underscore support
+ * - Comprehensive character literal handling with escape sequences
+ * - Proper error reporting for invalid characters
+ */
 
 %{
 #include <cstdio>

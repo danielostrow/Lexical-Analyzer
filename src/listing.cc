@@ -1,7 +1,17 @@
-// CMSC 430 Compiler Theory and Design
-// Project 1 Skeleton
-// UMGC CITE
-// Summer 2023
+/*
+ * Daniel Ostrow
+ * CMSC 430 Compiler Theory and Design - Project 1: Lexical Analyzer
+ * June 24th, 2025
+ * 
+ * listing.cc - Implementation of compilation listing and error reporting functions
+ * 
+ * This file contains the bodies of the functions that produce the compilation 
+ * listing with enhanced error reporting capabilities. Key features include:
+ * - Multiple error tracking per line using vectors
+ * - Separate counters for lexical, syntax, and semantic errors
+ * - Proper success/failure reporting
+ * - Enhanced error categorization and display
+ */
 
 // This file contains the bodies of the functions that produces the 
 // compilation listing

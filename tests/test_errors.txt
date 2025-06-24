@@ -1,4 +1,4 @@
-// *** ERROR TEST: Invalid tokens for error testing (created during development) ***
+// *** ERROR TEST: Invalid tokens for error testing ***
 function test_errors is
 begin
   // This should cause lexical errors

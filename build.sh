@@ -1,6 +1,16 @@
 #!/bin/bash
 
-# CMSC 430 Project 1 - Lexical Analyzer Build Script
+#
+# Daniel Ostrow
+# CMSC 430 Compiler Theory and Design - Project 1: Lexical Analyzer
+# June 24th, 2025
+#
+# build.sh - Automated build script for the lexical analyzer project
+#
+# This script provides a convenient way to build the entire lexical analyzer
+# project with proper error handling and user feedback. Automates the make
+# process and provides helpful usage information for testing the analyzer.
+#
 
 set -e  # Exit on any error
 

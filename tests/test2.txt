@@ -1,4 +1,4 @@
-// *** TEST 2: Extended features test (created during development) ***
+// *** TEST 2: Extended features test ***
 function factorial (number) returns integer is
 begin
   if number <= 1 then

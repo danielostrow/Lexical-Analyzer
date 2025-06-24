@@ -1,4 +1,4 @@
-// *** TEST 1: Basic functionality test (created during development) ***
+// *** TEST 1: Basic functionality test ***
 function test is
 begin
   integer x

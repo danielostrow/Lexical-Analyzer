@@ -1,7 +1,15 @@
-// CMSC 430 Compiler Theory and Design
-// Project 1 Skeleton
-// UMGC CITE
-// Summer 2023
+/*
+ * Daniel Ostrow
+ * CMSC 430 Compiler Theory and Design - Project 1: Lexical Analyzer
+ * June 24th, 2025
+ * 
+ * tokens.h - Token enumeration definitions for the lexical analyzer
+ * 
+ * This header file contains the enumerated type definition for all tokens
+ * recognized by the lexical analyzer. Includes operators, reserved words,
+ * literals, and identifiers with proper token codes for flex/bison integration.
+ * Extended from skeleton to include additional operators and reserved words.
+ */
 
 // This file contains the enumerated type definition for tokens
 
