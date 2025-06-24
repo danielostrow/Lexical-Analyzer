@@ -1,4 +1,4 @@
-// *** COMPREHENSIVE TEST: All language features (created during development) ***
+// *** COMPREHENSIVE TEST: All language features ***
 // Test file for all reserved words and operators
 function test_all (number x, real y) returns integer is
 begin
