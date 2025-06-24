@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+*.o
+*.obj
+
+# Generated files from flex/lex
+scanner.c
+lex.yy.c
+
+# Executables
+compile
+*.exe
+
+# Output files
+lexemes.txt
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archive files (if any get created during development)
+*.zip
+*.tar.gz
+*.tar 

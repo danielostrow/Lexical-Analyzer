@@ -1,0 +1,7 @@
+// *** TEST 7: Tests multiple lexical errors on same line and error reporting ***
+// Function with two lexical errors
+
+function main returns integer;
+begin
+  7 $ 2 ? (2 + 4);
+end; 

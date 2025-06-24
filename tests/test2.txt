@@ -1,0 +1,9 @@
+// *** TEST 2: Extended features test (created during development) ***
+function factorial (number) returns integer is
+begin
+  if number <= 1 then
+    returns 1
+  else  
+    returns number * factorial(number - 1)
+  endif
+end 

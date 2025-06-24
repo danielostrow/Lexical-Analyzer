@@ -1,0 +1,8 @@
+// *** ERROR TEST: Invalid tokens for error testing (created during development) ***
+function test_errors is
+begin
+  // This should cause lexical errors
+  invalid_symbol_@ # $ %
+  number x = 123.456.789  // Invalid real number
+  character bad_char = 'abc'  // Invalid character literal
+end 

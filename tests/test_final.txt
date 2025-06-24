@@ -1,0 +1,31 @@
+// *** FINAL TEST: Complex nested structures (created during development) ***
+// Final comprehensive test of all language features
+function fibonacci_calculator (number n) returns real is
+begin
+  if n <= 1 then
+    returns 1.0
+  elsif n = 2 then
+    returns 1.0  
+  else
+    real result = fibonacci_calculator(n-1) + fibonacci_calculator(n-2)
+    returns result
+  endif
+end
+
+function test_all_features (character c, list of integer nums) returns number is
+begin
+  switch case c of
+    when 'a':
+      fold left + right endfold
+    when 'b':
+      fold left * right endfold  
+    others:
+      real x = 3.14159
+      number y = 42
+      if x >= y then
+        returns x / y
+      else
+        returns y - x
+      endif
+  endswitch
+end 

@@ -1,0 +1,19 @@
+// *** COMPREHENSIVE TEST: All language features (created during development) ***
+// Test file for all reserved words and operators
+function test_all (number x, real y) returns integer is
+begin
+  if x <= 3.14 then
+    real result = x + y - 2.5
+    number count = 10
+    character ch = 'a'
+  elsif x >= 100 then
+    switch case x of
+      when 100:
+        fold left + right endfold
+      others:
+        result = x / y * 2
+    endswitch
+  else
+    list of integer numbers
+  endif
+end 

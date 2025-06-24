@@ -1,0 +1,6 @@
+// *** TEST 1: Basic functionality test (created during development) ***
+function test is
+begin
+  integer x
+  x + 5 * 3
+end 
